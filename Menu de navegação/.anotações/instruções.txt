@@ -1,0 +1,100 @@
+HTML:
+
+● div com a logo;
+● menu lateral;
+● menu horizontal;
+
+<header>
+   <div>
+      <a>LOGO</a>
+   </div>
+
+   <nav>
+      <ul>
+         <li><a></li>
+      </ul>
+
+      <ul>
+         <li><a></li>
+      </ul>
+   </nav>
+</header>
+———————————————————————————————————————————————————————————————
+
+CSS:
+
+body:
+  height: 100vh;
+
+header:
+  background-color:;
+  display: flex;
+  justify-content:;
+  align-items:;
+
+#logo:
+  margin: 20px;
+
+nav ul li:
+  display: inline-block;
+  margin: 20px;
+
+i:
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+
+#menu-lateral:
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 300px;
+  z-index: 999;
+  background-color: black;:
+
+#menu-lateral li{
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+———————————————————————————————————————————————————————————————
+
+MEDIA QUERIES:
+
+@media (max-width: 800px){
+  li do menu horizontal{
+    display: none;
+
+  i do menu horizontal{
+    display: block;
+  }
+}
+
+@media (min-width: 801px){
+  ul do menu horizontal{
+    display: block;
+  }
+
+  i do menu horizontal{
+    display: none;
+  }
+}
+———————————————————————————————————————————————————————————————
+
+JAVASCRIPT:
+
+   function showSidebar(){
+        let sidebar = document.getElementById('sidebar')
+        sidebar.style.display = 'flex'
+      
+      function hideSidebar(){
+        let sidebar = document.getElementById('sidebar')
+        sidebar.style.display = 'none’
+———————————————————————————————————————————————————————————————
